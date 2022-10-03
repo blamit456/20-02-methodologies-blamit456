@@ -11,7 +11,7 @@ public class Runner {
     {
         Scanner keyboard = new Scanner( System.in );
 
-//  Uncomment this section when you are ready to test out the Distance.
+//  Uncomment this section when you are ready to test the howFar method.
 
         out.print("Enter X1 :: ");
         int x1 = keyboard.nextInt();
@@ -25,7 +25,7 @@ public class Runner {
         out.printf( "distance == %.3f\n",Methodologies.howFar( x1, y1, x2, y2 ) );
 
 
-//  Uncomment this section when you are ready to test out the Quadratics.
+//  Uncomment this section when you are ready to test the Quadratics.
 
 
 
