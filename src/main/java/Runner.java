@@ -49,7 +49,7 @@ public class Runner {
         out.print("Enter time in hours :: ");
         int hours = keyboard.nextInt();
         out.print("Enter time in minutes :: ");
-        double minutes = keyboard.nextDouble();
+        int minutes = keyboard.nextInt();
 
         out.printf( "speed == %.3f\n", Methodologies.howFast(distanceInMiles, hours, minutes));
     }

@@ -6,8 +6,9 @@ public class Methodologies {
         return Math.sqrt(Math.pow(x2-x1,2) + Math.pow(y2-y1,2));
     }
 
-    public static double howFast( int distanceInMiles, int hours, double minutes ) {
-        return (distanceInMiles/(hours + minutes/60));
+    public static double howFast( int distanceInMiles, int hours, int minutes ) {
+        double speed =  distanceInMiles/(hours + minutes/60.0);
+        return Math.round(speed);
     }
 
     public static double getRootAdd( int a, int b, int c ) {
